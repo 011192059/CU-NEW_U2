@@ -1,0 +1,529 @@
+
+
+#button{
+
+    padding: 10px;
+    width: 120px;
+    /* color: white; */
+    background-color: FireBrick;
+    border: none;
+    justify-content: right;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: bottom;
+    height: 100vh;
+  }
+
+  .box {
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .boxs {
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    /* margin-bottom: 10px; */
+  }
+
+  .headerBox {
+    background-color: white;
+    padding-top: 0px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    width: 100%;
+    height: 400px;
+    /* text-align: bottom; */
+    /* vertical-align: text-bottom; */
+    /* height: 170px; */
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
+  }
+
+      /* .footerbox {
+        background-color: white;
+        border: 2px solid black;
+        text-align: center;
+        margin-bottom: 10px;
+      } */
+  .footer {
+    /* background-color: #333; */
+    /* color: black; */
+    padding: 10px;
+    text-align: center;
+    /* padding-top: 70px;
+    margin-bottom: 10px; */
+    border: 2px solid black;
+  }
+
+
+  .menuBox {
+    background-color: white;
+    border: 2px solid black;
+    padding: 7px;
+    margin: 10px;
+    /* width: 100%; */
+    /* height: 100px; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* ...............................slide image............................ */
+  .slideshow-container {
+    position: relative;
+    width: 100%;
+    height: 70%; /* adjust to fit your design */
+    overflow: hidden;
+  }
+
+  .hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .hero-image:first-child {
+    opacity: 1;
+  }
+
+
+  /* .hero-text {
+    position: absolute;
+    top: 92.5%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: bottom;
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  } */
+
+  /*...............................................................  */
+  /* ..................................footerbox slider................... */
+  /* .slider {
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+    height: 220px;
+    margin: 0 auto;
+  }
+
+  .slides {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 16px;
+  }
+
+  .slides::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  .slides::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 10px;
+  }
+
+  .slides::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .slides img {
+    width: 100%;
+    height: auto;
+    scroll-snap-align: start;
+  }
+
+  .nav button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+
+  .prev {
+    left: 0;
+  }
+
+  .next {
+    right: 0;
+  } */
+
+
+
+
+
+
+/*
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+  .column {
+    flex: 1;
+    padding: 5px;
+  }
+
+  .column img {
+    display: block;
+    max-width: 100%;
+  }
+
+  .nav {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .prev, .next {
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: #ddd;
+  }
+
+  .disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  } */
+
+/* ..............................middlebox............................ */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+  .column {
+    flex: 1;
+    padding: 5px;
+    /* float: center;
+    justify-content: center; */
+    justify-items: center;
+    /* width: 25%; */
+    /* margin-bottom: 2px; */
+    /* padding: 0 8px; */
+  }
+
+  /* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+  .column img {
+    display: block;
+    max-width: 100%;
+  }
+
+  .nav {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .prev, .next {
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: #ddd;
+  }
+
+  .disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+
+  /* * {
+    box-sizing: border-box;
+  }
+  .column {
+    float: left;
+    width: 20%;
+    padding: 2px;
+  } */
+
+  /* Clearfix (clear floats) */
+  /* .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } */
+  /*......................................................  */
+
+  .middlebox {
+        background-color: white;
+        padding-top: 10px;
+        /* text-align: center; */
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* vertical-align: text-bottom; */
+        /* height: 170px; */
+      }
+
+/* ............................................................................................................ */
+      .social-icons {
+        display: flex;
+        /* margin: 70px; */
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /* .social-icon {
+        margin: 50px;
+        color: inherit;
+        font-size: inherit;
+      } */
+
+      /* .social-icon:hover {
+        color: #007bff;
+      } */
+     /*...................................................................................................  */
+
+
+  .header {
+    display: flex;
+    align-items: left;
+  }
+
+  .container1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .middlebox1 {
+    width: 450px;
+    height: 250px;
+    margin-left: 10px;
+  }
+
+  .middleboxes2 {
+    width: 200px;
+    height: 118.5px;
+    margin-left: 10px;
+  }
+
+
+  .middleboxes3 {
+    width: 100px;
+    height: 52px;
+    margin-left: 10px;
+  }
+
+
+  .middlebox4 {
+    width: 300px;
+    height: 250px;
+    margin-left: 10px;
+    /* overflow: hidden; */
+  }
+
+  .scrollable-text {
+    height: 60%; /* Set the height of the paragraph to 100% of the box */
+    overflow: auto; /* Add a vertical scrollbar when the content overflows */
+  }
+
+  .footerbox {
+    /* width: 1330px; */
+    height: 400px;
+  }
+
+  .inner-box {
+    width: 120px;
+    height: 70px;
+    background-color: white;
+    border: 2px solid black;
+    margin: 5px;
+    text-align: center;
+    /* flex-direction: row; */
+
+  }
+
+
+    /* -------------------hover dropdown--------------- */
+  .dropbtn {
+    background-color: white;
+    color: rgb(146, 28, 146);
+    width: 110px;
+    height: 50px;
+    /* padding: 12px; */
+    /* font-size: 16px; */
+    border: none;
+    cursor: pointer;
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fc96f7;
+    /* min-width: 160px; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: rgb(146, 28, 146)}
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: white;
+  }
+
+
+
+/* ...................................counsil.............................. */
+
+  .box22 {
+    width: 1550px;
+    height: 980px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+  }
+
+  .inner-box1 {
+    width: 450px;
+    height: 400px;
+    background-color: white;
+    border: 2px solid black;
+    margin: 5px;
+    text-size-adjust: 0.5px;
+    /* text-align: bottom; */
+    /* flex-direction: row; */
+
+  }
+
+
+/* ....................................................... */
+
+
+
+  .box23 {
+    width: 1150px;
+    height: 1000px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+  }
+
+  .inner-box2 {
+    width: 400px;
+    height: 150px;
+    background-color: white;
+    border: 2px solid black;
+    margin: 5px;
+    /* text-align: bottom; */
+    /* flex-direction: row; */
+
+  }
+  /* .....................Form................... */
+      /* body {
+      background-color: lightblue;
+      } */
+
+      .text{
+
+      height: 20px;
+      border-radius: 5px;
+      padding: 2px;
+      border: solid thin #aaa;
+      width: 90%;
+      }
+
+      #top-image {
+        width: 20px;
+        height: 10px;
+    }
+
+   /* img {
+        overflow-clip-margin: content-box;
+        overflow: clip;
+    }    */
+      #button{
+
+      padding: 10px;
+      width: 120px;
+      color: white;
+      background-color: FireBrick;
+      border: none;
+      }
+
+      .formbox{
+
+      background-color: AliceBlue;
+      margin: auto;
+      width: 300px;
+      padding: 20px;
+      }
+
+/* ........................................ */
