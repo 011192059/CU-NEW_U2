@@ -123,11 +123,16 @@ if(
     
         
         <div class="boxs box22">
-          <!-- <p>উপদেষ্টা মন্ডলী</p>
-         -->
+         
+        
 
          <!-- <div id="box"> -->
-            <img id="top-image" src="images/7.jpg" alt="Example Image 1">
+         <div id="top-image">
+           <p style="font-weight: bold; font-size:24px;">উপদেষ্টা মন্ডলী</p>
+           <img  src="images/7.jpg" alt="Example Image 1">
+         </div>   
+         
+            
             <div class="bottom-row">
               <img src="images/veg.jpg" alt="Example Image 2">
               <img src="images/tomato.jpg" alt="Example Image 3">

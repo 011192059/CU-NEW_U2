@@ -250,7 +250,10 @@
 
   .column img {
     display: block;
-    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    
   }
 
   .nav {
@@ -444,12 +447,13 @@
 /* ...................................counsil.............................. */
 
   .box22 {
-    width: 1550px;
-    height: 980px;
+    width: 80%;
+    height: 100%;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     flex-wrap: wrap;
-    margin-left: 160px;
+    margin-left: 10%;
+    margin-right: 10%;
     
   }
 
@@ -502,12 +506,16 @@
       width: 90%;
       }
 
-      #top-image {
+      .top-image {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 40%;
-    }
+      }
+      .name {
+        display: block;
+        
+      }
 
     .bottom-row img {
       width: 24%;
