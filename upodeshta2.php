@@ -16,8 +16,6 @@ if(
     <title>My Homepage</title>
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-
-
   </head>
 
   <body>
@@ -114,11 +112,11 @@ if(
           <a href="#" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
         </div> -->
         <div class="social-icons">
-         <a style="padding-right: 10px; padding-left: 10px;" href="https://www.facebook.com"><i class="fab fa-facebook fa-lg"></i></a>
-         <a style="padding-right: 10px;" href="https://www.youtube.com"><i class="fab fa-youtube fa-lg"  style="color: #ff0000;"></i></a>
-         <a style="padding-right: 10px;" href="https://wa.me/1234567890"><i class="fab fa-whatsapp fa-lg"></i></a>
-         <a style="padding-right: 10px;" href="mailto:yourname@example.com"><i class="far fa-envelope fa-lg"></i></a>
-         <a style="padding-right: 10px;" href="tel:+880"><i class="fas fa-phone fa-lg"></i></a>
+         <a style="font-size: 2em; padding-right: 10px; padding-left: 10px;" href="https://www.facebook.com"><i class="fab fa-facebook fa-lg"></i></a>
+         <a style="font-size: 2em;  padding-right: 10px;" href="https://www.youtube.com"><i class="fab fa-youtube fa-lg"  style="color: #ff0000;"></i></a>
+         <a style="font-size: 2em;  padding-right: 10px; color:green" href="https://wa.me/1234567890"><i class="fab fa-whatsapp fa-lg"></i></a>
+         <a style="font-size: 2em;  padding-right: 10px; color:red" href="mailto:yourname@example.com"><i class="far fa-envelope fa-lg"></i></a>
+         <a style="font-size: 2em;  padding-right: 10px;" href="tel:+880"><i class="fas fa-phone fa-lg"></i></a>
         </div>
         </div>
     </div>
@@ -130,7 +128,12 @@ if(
 
          <!-- <div id="box"> -->
             <img id="top-image" src="images/7.jpg" alt="Example Image 1">
-            <div id="bottom-row">
+            <div class="bottom-row">
+              <img src="images/veg.jpg" alt="Example Image 2">
+              <img src="images/tomato.jpg" alt="Example Image 3">
+              <img src="images/potatoes.jpg" alt="Example Image 4">
+              <img src="images/22.jpg" alt="Example Image 5">
+
               <img src="images/veg.jpg" alt="Example Image 2">
               <img src="images/tomato.jpg" alt="Example Image 3">
               <img src="images/potatoes.jpg" alt="Example Image 4">
