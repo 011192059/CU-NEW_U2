@@ -13,7 +13,7 @@ if(
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Homepage</title>
+    <title>উপদেষ্টা মন্ডলী</title>
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
   </head>
@@ -26,14 +26,17 @@ if(
         <img class="hero-image" src="images/head_ss_3.jpg">
       </div>
       <div>
-        <img src="images/Heading_Image_Text.png" width="600" height="120">
+      <a href="home2.php">
+  <img src="images/Heading_Image_Text.png" width="600" height="120" alt="Clickable header image">
+</a>
+
       </div>
     </div>
 
     <div class="menuBox">
       <!-- home icon -->
 
-      <!-- <a href="prakton.php"><i class="fa fa-home"></i></a> -->
+      <a style="font-size: 2em; padding-right: 10px; padding-left: 10px; padding-bottom: 10px; color:black" href="home2.php"><i class="fa fa-home"></i></a>
         <div class="inner-box">
 
           <div class="dropdown">
@@ -41,7 +44,7 @@ if(
             <div class="dropdown-content">
               <a href="#">সংগঠন পরিচিতি</a>
               <a href="#">গঠনতন্ত্র </a>
-              <a href="upodeshta.php">উপদেষ্টা মন্ডলী </a>
+              <a href="upodeshta2.php">উপদেষ্টা মন্ডলী </a>
               <a href="counsil.php">কাউন্সিল</a>
               <a href="prakton.php">প্রাক্তন</a>
             </div>
@@ -69,7 +72,7 @@ if(
           <div class="dropdown">
             <button class="dropbtn" style="color:rgb(61, 61, 216);"><h3>প্রকাশনা</h3</button>
             <div class="dropdown-content">
-              <a href="#">কালান্তক </a>
+              <a href="kalantok.php">কালান্তক </a>
               <a href="#">আবর্তন  </a>
               <a href="prekkha.html">প্রেক্ষা </a>
             </div>
@@ -80,6 +83,7 @@ if(
           <div class="dropdown">
             <button class="dropbtn" style="color:rgb(212, 69, 17);"><h3>আবৃত্তি উৎসব</h3</button>
             <div class="dropdown-content">
+              <a href="#">১oম আবৃত্তি উৎসব</a>
               <a href="#">৯ম আবৃত্তি উৎসব</a>
               <a href="#">৮ম আবৃত্তি উৎসব</a>
               <a href="#">৭ম আবৃত্তি  উৎসব</a>
@@ -92,7 +96,7 @@ if(
             </div>
           </div>
         </div>
-        <div class="inner-box" style="color:rgb(10, 68, 10);"><h3>সম্মাননা</h3></div>
+        <a href="sommanona.php" style="text-decoration:none;"><div class="inner-box" style="color:rgb(10, 68, 10);"><h3>সম্মাননা</h3></div></a>
           <!-- <div class="inner-box" style="color:rgb(185, 35, 128);"><h3>গ্যালারি</h3></div> -->
         <div class="inner-box">
           <div class="dropdown">
@@ -112,11 +116,11 @@ if(
           <a href="#" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
         </div> -->
         <div class="social-icons">
-         <a style="font-size: 2em; padding-right: 10px; padding-left: 10px;" href="https://www.facebook.com"><i class="fab fa-facebook fa-lg"></i></a>
-         <a style="font-size: 2em;  padding-right: 10px;" href="https://www.youtube.com"><i class="fab fa-youtube fa-lg"  style="color: #ff0000;"></i></a>
-         <a style="font-size: 2em;  padding-right: 10px; color:green" href="https://wa.me/1234567890"><i class="fab fa-whatsapp fa-lg"></i></a>
-         <a style="font-size: 2em;  padding-right: 10px; color:red" href="mailto:yourname@example.com"><i class="far fa-envelope fa-lg"></i></a>
-         <a style="font-size: 2em;  padding-right: 10px;" href="tel:+880"><i class="fas fa-phone fa-lg"></i></a>
+         <a style="font-size: 2em; padding-right: 10px; padding-left: 10px; color:blue" href="https://www.facebook.com/cu.abrrittimoncho?mibextid=ZbWKwL"><i class="fab fa-facebook fa-lg"></i></a>
+         <a style="font-size: 2em;  padding-right: 10px;" href="https://youtube.com/@AbrittiMoncho"><i class="fab fa-youtube fa-lg"  style="color: #ff0000;"></i></a>
+         <a style="font-size: 2em;  padding-right: 10px; color:green" href="https://wa.me/+8801748566529"><i class="fab fa-whatsapp fa-lg"></i></a>
+         <a style="font-size: 2em;  padding-right: 10px; color:red" href="https://cuabrittimoncho.com"><i class="far fa-envelope fa-lg"></i></a>
+         <a style="font-size: 2em;  padding-right: 10px;" href="tel:+8801748566529"><i class="fas fa-phone fa-lg"></i></a>
         </div>
         </div>
     </div>
@@ -128,26 +132,138 @@ if(
 
          <!-- <div id="box"> -->
          <div id="top-image">
-           <p style="font-weight: bold; font-size:24px;">উপদেষ্টা মন্ডলী</p>
-           <img  src="images/7.jpg" alt="Example Image 1">
+           <p style="font-weight: bold; font-size:24px; color:rgb(146, 28, 146);"><u>উপদেষ্টা মন্ডলী</u></p>
+           <p style="font-weight: bold; font-size:20px;">প্রধান উপদেষ্টা</p>
+
+        <div class="column">
+        <div class="card">
+          <img src="images/shermin.jpg"alt="Slide1">
+        <h2>শারমিন</h2>
+        </div>
+        </div>
+           <!-- <img  src="images/Ahmed .jpg" alt="Example Image 1"> -->
          </div>   
          
             
             <div class="bottom-row">
-              <img src="images/veg.jpg" alt="Example Image 2">
-              <img src="images/tomato.jpg" alt="Example Image 3">
-              <img src="images/potatoes.jpg" alt="Example Image 4">
-              <img src="images/22.jpg" alt="Example Image 5">
+            
+              <br> <br>
+            <p style="font-weight: bold; font-size:20px;">সহকারি উপদেষ্টা</p>
+            <div class="row">
+            <div class="column">
+        <div class="card">
+          <img src="images/Ruchita .jpeg"alt="Slide1">
+        <h2>রুচিরা সুলতানা</h2>
+        </div>
+        </div>
+        <div class="column">
+        <div class="card">
+          <img src="images/Riazul.jpeg"alt="Slide1">
+        <h2>রিয়াজুল</h2>
+        </div>
+        </div>
+        <div class="column">
+        <div class="card">
+          <img src="images/Rimi.jpeg"alt="Slide1">
+        <h2>রিমি</h2>
+        </div>
+        </div>
+        <div class="column">
+        <div class="card">
+          <img src="images/Rajib.jpeg"alt="Slide1">
+        <h2>রাজিব</h2>
+        </div>
+        </div>
+        <div class="column">
+        <div class="card">
+          <img src="images/Arif.jpg"alt="Slide1">
+        <h2>মাসুম বিল্লাহ আরিফ</h2>
+        </div>
+        </div>
+        <div class="column">
+        <div class="card">
+          <img src="images/Masud.jpg"alt="Slide1">
+        <h2>মাছুম আহমেদ</h2>
+        </div>
+        </div>
+        <div class="column">
+        <div class="card">
+          <img src="images/Vaggosori.jpg"alt="Slide1">
+        <h2>ভাগ্যশ্বরী</h2>
+        </div>
+        </div>
+        <div class="column">
+        <div class="card">
+          <img src="images/Borhan .jpg"alt="Slide1">
+        <h2>বোরহান</h2>
+        </div>
+        </div>
+        <div class="column">
+        <div class="card">
+          <img src="images/Papri .jpeg"alt="Slide1">
+        <h2>পাপড়ি বড়ুয়া</h2>
+        </div>
+        </div>
+        <div class="column">
+        <div class="card">
+          <img src="images/Tuli.jpg"alt="Slide1">
+        <h2>তুলি</h2>
+        </div>
+        </div>
+        <div class="column">
+        <div class="card">
+          <img src="images/Dash.jpg"alt="Slide1">
+        <h2>কণাদাশ</h2>
+        </div>
+        </div>
+        <div class="column">
+        <div class="card">
+          <img src="images/Imran.jpeg"alt="Slide1">
+        <h2>ইমরান</h2>
+        </div>
+        </div>
+        <div class="column">
+        <div class="card">
+          <img src="images/Ahmed .jpg"alt="Slide1">
+        <h2>আহমেদ</h2>
+        </div>
+        </div>
+        <div class="column">
+        <div class="card">
+          <img src="images/Masud.jpg"alt="Slide1">
+        <h2>আল মামুন</h2>
+        </div>
+        </div>
+        <div class="column">
+          <img src="images/whitepic.jpg"alt="Slide1">
+        </div>
+        <div class="column">
+          <img src="images/whitepic.jpg"alt="Slide1">
+        </div>
+              <!-- <img src="images/Ruchita .jpeg" alt="Example Image 2">
+              <img src="images/Riazul.jpeg" alt="Example Image 3">
+              <img src="images/Rimi.jpeg" alt="Example Image 4">
+              <img src="images/Rajib.jpeg" alt="Example Image 5">
 
-              <img src="images/veg.jpg" alt="Example Image 2">
-              <img src="images/tomato.jpg" alt="Example Image 3">
-              <img src="images/potatoes.jpg" alt="Example Image 4">
-              <img src="images/22.jpg" alt="Example Image 5">
+              <img src="images/Arif.jpg" alt="Example Image 2">
+              <img src="images/Masud.jpg" alt="Example Image 3">
+              <img src="images/Vaggosori.jpg" alt="Example Image 4">
+              <img src="images/Borhan .jpg" alt="Example Image 5">
+
+              <img src="images/Papri .jpeg" alt="Example Image 2">
+              <img src="images/Tuli.jpg" alt="Example Image 3">
+              <img src="images/Dash.jpg" alt="Example Image 4">
+              <img src="images/Imran.jpeg" alt="Example Image 5">
+
+              <img src="images/Ahmed .jpg" alt="Example Image 2">
+              <img src="images/Ahmed .jpg" alt="Example Image 3">
+              <img src="images/whitepic.jpg" alt="Example Image 4">
+              <img src="images/whitepic.jpg" alt="Example Image 5"> -->
               
               
             </div>
 
-            
+            </div>
         </div>
           
      <!-- </div> -->
@@ -157,9 +273,28 @@ if(
     </div>
 
     <script>
-        document.getElementById("box").addEventListener("click", function() {
-          this.style.backgroundColor = "lightblue";
-        });
+        // document.getElementById("box").addEventListener("click", function() {
+        //   this.style.backgroundColor = "lightblue";
+        // });
+
+
+// .............................hero image slideshow...................................
+var slideIndex = 0;
+var slides = document.getElementsByClassName("hero-image");
+
+function showSlides() {
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].style.opacity = "0";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) { slideIndex = 1 }
+  slides[slideIndex - 1].style.opacity = "1";
+  setTimeout(showSlides, 2000); /* change image every 5 seconds */
+}
+
+showSlides();
+
+// .....................................................................................
       </script>
   </body>
 </html>
