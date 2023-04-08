@@ -225,7 +225,7 @@ if(
 
     <div class="box">
      <div class="row">
-        <div class="nav">
+        <div class="nav header-text">
           <button class="prev disabled" disabled>Prev</button>
         </div>
 
@@ -321,7 +321,7 @@ if(
           <img src="images/whitepic.jpg" alt="Slide1">
         </div>
         
-        <div class="nav">
+        <div class="nav header-text">
           <button class="next">Next</button>
         </div>
      </div>
