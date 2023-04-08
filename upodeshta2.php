@@ -96,6 +96,7 @@ if(
             </div>
           </div>
         </div>
+        <!-- this is siam -->
         <a href="sommanona.php" style="text-decoration:none;"><div class="inner-box" style="color:rgb(10, 68, 10);"><h3>সম্মাননা</h3></div></a>
           <!-- <div class="inner-box" style="color:rgb(185, 35, 128);"><h3>গ্যালারি</h3></div> -->
         <div class="inner-box">
