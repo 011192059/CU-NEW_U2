@@ -10,12 +10,26 @@
     justify-content: right;
   }
 
-  .container {
+
+  /* .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: bottom;
     height: 100vh;
+  } */
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: bottom;
+    height: auto;
+    /* width: 80%; */
+    /* background-color: aqua; */
+    margin-left: 100px;
+    margin-right: 100px;
   }
 
   .box {
@@ -46,15 +60,18 @@
     left: 0; */
   }
 
-      /* .footerbox {
+
+           /* .footerbox {
         background-color: white;
         border: 2px solid black;
         text-align: center;
         margin-bottom: 10px;
       } */
   .footer {
-    /* background-color: #333; */
-    /* color: black; */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
     padding: 10px;
     text-align: center;
     /* padding-top: 70px;
@@ -74,6 +91,7 @@
     justify-content: center;
     flex-wrap: wrap;
   }
+
 
   /* ...............................slide image............................ */
   .slideshow-container {
@@ -346,7 +364,7 @@
   }
 
   .middlebox1 {
-    width: 450px;
+    width: 500px;
     height: 250px;
     margin-left: 10px;
   }
@@ -373,14 +391,15 @@
   }
 
   .scrollable-text {
-    height: 60%; /* Set the height of the paragraph to 100% of the box */
-    overflow: auto; /* Add a vertical scrollbar when the content overflows */
+    /* width: 100%; */
+    height: 60%;
+    overflow: auto;
   }
 
-  .footerbox {
-    /* width: 1330px; */
+  /* .footerbox {
+ 
     height: 400px;
-  }
+  } */
 
   .inner-box {
     width: 145px;
@@ -447,7 +466,7 @@
 
 /* ...................................counsil.............................. */
 
-  .box22 {
+  .box21 {
     width: 80%;
     height: 100%;
     display: flex;
@@ -458,18 +477,61 @@
     
   }
 
-  .inner-box1 {
+  /* .inner-box1 {
     width: 450px;
     height: 400px;
     background-color: white;
     border: 2px solid black;
     margin: 5px;
     text-size-adjust: 0.5px;
+
+
+  } */
+  .box22 {
+    width: 100%;
+    height: 100px;
+    /* display: flex; */
+    /* justify-content: left; */
+    /* flex-wrap: wrap; */
+    text-align: center;
+    color: rgb(146, 28, 146);
+    font-size: 30px;
+  }
+
+  .inner-box1 {
+    width: 560px;
+    height: 700px;
+    background-color: white;
+    border: 2px solid black;
+    margin: 20px;
+    text-size-adjust: 0.5px;
+    padding: 10px;
     /* text-align: bottom; */
     /* flex-direction: row; */
 
   }
 
+  .box24 {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+  }
+
+  .box25 {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+  }
 
 /* ....................................................... */
 
@@ -497,6 +559,21 @@
       /* body {
       background-color: lightblue;
       } */
+
+      body {
+        position: relative;
+        margin-bottom: 100px;
+      }
+
+      footer {
+        position: absolute;
+        /* bottom: 0; */
+        width: 100%;
+        height: 90px;
+        border: 2px solid black;
+        text-align: center;
+      }
+
 
       .text{
 

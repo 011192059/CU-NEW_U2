@@ -304,8 +304,8 @@ if(
         <div class="column">
         <div class="card">
           <img src="images/joyonto.jpeg" alt="Slide1">
-        <h2>Jane Doe</h2>
-        <p class="title">CEO &amp; Founder</p>
+        <h2>জয়ন্ত চট্টোপাধ্যায়</h2>
+        <p class="title">আবৃত্তিশিল্পী ও অভিনেতা</p>
         </div>
         </div>
 
@@ -404,30 +404,33 @@ if(
       });
 
       // ..........................................................................
+      
 
            </script>
            <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"></script>
 
 
-    <div class="footer">
-      <div>
-        <p>Copyright &copy; 2023 চট্টগ্রাম বিশ্ববিদ্যালয় আবৃত্তি মঞ্চ</p>
-      </div>
-        <?php
-        if($_SESSION['role'] == 'user')  {
-          ?>
-          <a class="labelText" href='login.php?'>Login</a>
-          <?php
-        }
-        else {
-          ?>
-          <a class="labelText" href='logout.php'>Logout</a>
-          <?php
-        }
-        ?>
-      <div>
 
-      </div>
-    </div>
+
+      <!-- </div>
+    </div> -->
   </body>
+  <footer>
+    <div>
+      <p>Copyright &copy; 2023 চট্টগ্রাম বিশ্ববিদ্যালয় আবৃত্তি মঞ্চ</p>
+    </div>
+      <?php
+      if($_SESSION['role'] == 'user')  {
+        ?>
+        <a class="labelText" href='login.php?'>Login</a>
+        <?php
+      }
+      else {
+        ?>
+        <a class="labelText" href='logout.php'>Logout</a>
+        <?php
+      }
+      ?>
+
+  </footer>
 </html>

@@ -127,7 +127,7 @@ if(
     </div>
     
         
-        <div class="boxs box22">
+        <div class="boxs box24">
          
         
 
@@ -276,4 +276,22 @@ showSlides();
 // .....................................................................................
       </script>
   </body>
+  <footer>
+      <div>
+        <p>Copyright &copy; 2023 চট্টগ্রাম বিশ্ববিদ্যালয় আবৃত্তি মঞ্চ</p>
+      </div>
+        <?php
+        if($_SESSION['role'] == 'user')  {
+          ?>
+          <a class="labelText" href='login.php?'>Login</a>
+          <?php
+        }
+        else {
+          ?>
+          <a class="labelText" href='logout.php'>Logout</a>
+          <?php
+        }
+        ?>
+
+  </footer>
 </html>
