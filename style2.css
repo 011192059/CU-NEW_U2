@@ -270,9 +270,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 290px;    
     width: 60%;
-  
-    
   }
 
   .nav {
@@ -301,6 +300,7 @@
   .hidden {
     display: none;
   }
+
 
 
   /* * {
@@ -356,6 +356,12 @@
   .header {
     display: flex;
     align-items: left;
+  }
+
+  .header-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .container1 {
