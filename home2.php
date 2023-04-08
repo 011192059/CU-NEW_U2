@@ -380,8 +380,8 @@ if(
 
         // Disable/enable the "Next" button if necessary
       if (slideIndex === Math.ceil(columns.length / 4) - 1) {
-      nextBtn.disabled = true;
-      nextBtn.classList.add("disabled");
+      // nextBtn.disabled = true;
+      // nextBtn.classList.add("disabled");
       } else {
       nextBtn.disabled = false;
       nextBtn.classList.remove("disabled");
@@ -399,8 +399,14 @@ if(
 
       // Handle the "Next" button click
       nextBtn.addEventListener("click", () => {
-      currentSlide++;
-      showSlide(currentSlide);
+      if(currentSlide*4+4 >= columns.length){
+        currentSlide = 0;
+        showSlide(currentSlide);  
+      }
+      else{
+        currentSlide++;
+        showSlide(currentSlide);
+      }
       });
 
       // ..........................................................................
