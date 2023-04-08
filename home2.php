@@ -125,8 +125,8 @@ if(
 
     <div class="middlebox">
       <div class="header">
-        <h1>সর্বশেষ আপডেট</h1>
-        <div class="box middlebox1">
+        <h1 class="header-text">সর্বশেষ আপডেট</h1>
+        <div class="box middlebox1 header-text">
           <?php
           if($_SESSION['role'] == 'admin')  {
             ?>
@@ -145,7 +145,7 @@ if(
         </div>
 
         <div class="container1">
-          <div class="box middleboxes2">
+          <div class="box middleboxes2 header-text">
             <?php
             if($_SESSION['role'] == 'admin')  {
               ?>
@@ -163,7 +163,7 @@ if(
             </p>
           </div>
 
-          <div class="box middleboxes2">
+          <div class="box middleboxes2 header-text">
             <?php
             if($_SESSION['role'] == 'admin')  {
               ?>
@@ -421,7 +421,7 @@ if(
       <!-- </div>
     </div> -->
   </body>
-  <footer>
+  <footer class="footer-css">
     <div>
       <p>Copyright &copy; 2023 চট্টগ্রাম বিশ্ববিদ্যালয় আবৃত্তি মঞ্চ</p>
     </div>

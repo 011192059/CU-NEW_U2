@@ -302,6 +302,7 @@
   }
 
 
+
   /* * {
     box-sizing: border-box;
   }
@@ -355,6 +356,12 @@
   .header {
     display: flex;
     align-items: left;
+  }
+
+  .header-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .container1 {
