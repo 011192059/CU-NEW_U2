@@ -26,7 +26,7 @@ if(
         <img class="hero-image" src="images/head_ss_3.jpg">
       </div>
       <div>
-      <a href="home2.php">
+      <a href="home.php">
   <img src="images/Heading_Image_Text.png" width="600" height="120" alt="Clickable header image">
 </a>
 
@@ -36,7 +36,7 @@ if(
     <div class="menuBox">
       <!-- home icon -->
 
-      <a style="font-size: 2em; padding-right: 10px; padding-left: 10px; padding-bottom: 10px; color:black" href="home2.php"><i class="fa fa-home"></i></a>
+      <a style="font-size: 2em; padding-right: 10px; padding-left: 10px; padding-bottom: 10px; color:black" href="home.php"><i class="fa fa-home"></i></a>
         <div class="inner-box">
 
           <div class="dropdown">
@@ -44,9 +44,9 @@ if(
             <div class="dropdown-content">
               <a href="#">সংগঠন পরিচিতি</a>
               <a href="#">গঠনতন্ত্র </a>
-              <a href="upodeshta2.php">উপদেষ্টা মন্ডলী </a>
+              <a href="upodeshta.php">উপদেষ্টা মন্ডলী </a>
               <a href="counsil.php">কাউন্সিল</a>
-              <a href="prakton.php">প্রাক্তন</a>
+              <a href="#">প্রাক্তন</a>
             </div>
           </div>
         </div>
@@ -58,10 +58,10 @@ if(
           <div class="dropdown">
             <button class="dropbtn" style="color:rgb(37, 37, 102);"><h3>নিয়মিত আয়োজন</h3</button>
             <div class="dropdown-content">
-              <a href="#">কর্মশালা</a>
+              <a href="kormoshala.php">কর্মশালা</a>
               <a href="#">কবি ও কবিতা  </a>
               <a href="#">পড়ুয়া </a>
-              <a href="#">বৈঠক </a>
+              <a href="boithok.php">বৈঠক </a>
               <a href="#">প্রতিযোগিতা </a>
               <a href="#">অন্যান্য</a>
             </div>
@@ -78,14 +78,13 @@ if(
             </div>
           </div>
         </div>
-          <!-- <div class="inner-box" style="color:rgb(212, 69, 17);line-height: 0.9; font-size: 16px;"><h3>আবৃত্তি উৎসব</h3></div> -->
         <div class="inner-box">
           <div class="dropdown">
             <button class="dropbtn" style="color:rgb(212, 69, 17);"><h3>আবৃত্তি উৎসব</h3</button>
             <div class="dropdown-content">
-              <a href="#">১oম আবৃত্তি উৎসব</a>
-              <a href="#">৯ম আবৃত্তি উৎসব</a>
-              <a href="#">৮ম আবৃত্তি উৎসব</a>
+              <a href="10thA.php">১oম আবৃত্তি উৎসব</a>
+              <a href="9thA.php">৯ম আবৃত্তি উৎসব</a>
+              <a href="8thA.php">৮ম আবৃত্তি উৎসব</a>
               <a href="#">৭ম আবৃত্তি  উৎসব</a>
               <a href="#">৬ষ্ঠ আবৃত্তি উৎসব</a>
               <a href="#">৫ম আবৃত্তি উৎসব</a>
@@ -97,7 +96,6 @@ if(
           </div>
         </div>
         <a href="sommanona.php" style="text-decoration:none;"><div class="inner-box" style="color:rgb(10, 68, 10);"><h3>সম্মাননা</h3></div></a>
-          <!-- <div class="inner-box" style="color:rgb(185, 35, 128);"><h3>গ্যালারি</h3></div> -->
         <div class="inner-box">
           <div class="dropdown">
             <button class="dropbtn"style="color:rgb(185, 35, 128);"><h3>গ্যালারি</h3</button>
@@ -108,13 +106,7 @@ if(
           </div>
         </div>
         <div class="inner-box" style="color:rgb(78, 55, 29);"><h3>ব্লগ</h3></div>
-         <!-- social icons -->
 
-         <!-- <div class="social-icons">
-          <a href="#" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
-          <a href="#" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
-          <a href="#" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
-        </div> -->
         <div class="social-icons">
          <a style="font-size: 2em; padding-right: 10px; padding-left: 10px; color:blue" href="https://www.facebook.com/cu.abrrittimoncho?mibextid=ZbWKwL"><i class="fab fa-facebook fa-lg"></i></a>
          <a style="font-size: 2em;  padding-right: 10px;" href="https://youtube.com/@AbrittiMoncho"><i class="fab fa-youtube fa-lg"  style="color: #ff0000;"></i></a>
@@ -126,100 +118,23 @@ if(
     </div>
     
         
-        <div class="boxs box21">
-         
-        
-
-         <!-- <div id="box"> -->
-         <!-- <div id="top-image">
-           <p style="font-weight: bold; font-size:24px; color:rgb(146, 28, 146);"><u>উপদেষ্টা মন্ডলী</u></p>
-           <p style="font-weight: bold; font-size:20px;">প্রধান উপদেষ্টা</p>
-
-        <div class="column">
-        <div class="card">
-          <img src="images/shermin.jpg"alt="Slide1">
-        <h2>শারমিন</h2>
-        </div>
-        </div> -->
-           <!-- <img  src="images/Ahmed .jpg" alt="Example Image 1"> -->
-         <!-- </div>    -->
-         
-         <div class="bottom-row">
-            <!-- <div class="bottom-row">
-            
-              <br> <br>
-            <p style="font-weight: bold; font-size:20px;">প্রেক্ষা </p>
-            <div class="row">
-            <div class="column">
-        <div class="card">
-          <img src="images/Ruchita .jpeg"alt="Slide1">
-        <h2>প্রেক্ষা - প্রথম সংখ্যা</h2>
-        </div>
-        </div>
-        <div class="column">
-        <div class="card">
-          <img src="images/Riazul.jpeg"alt="Slide1">
-        <h2>প্রেক্ষা। দ্বিতীয় সংখ্যা</h2>
-        </div>
-        </div>
-        <div class="column">
-        <div class="card">
-          <img src="images/Rimi.jpeg"alt="Slide1">
-        <h2>প্রেক্ষা। তৃতীয় সংখ্যা। ডিসেম্বর-২০২০</h2>
-        </div>
-        </div>
-        <div class="column">
-        <div class="card">
-          <img src="images/Rajib.jpeg"alt="Slide1">
-        <h2>প্রেক্ষা। চতুর্থ সংখ্যা.</h2>
-        </div>
-        </div>
-        <div class="column">
-        <div class="card">
-          <img src="images/Arif.jpg"alt="Slide1">
-        <h2>প্রেক্ষা । পঞ্চম সংখ্যা</h2>
-        </div>
-        </div> -->
-
-
+        <div class="boxs box26">
+         <div class="bottom-row2">
                  <div id="top-image">
            <p style="font-weight: bold; font-size:24px; color:rgb(146, 28, 146);"><u>কালান্তক</u></p>
-           <!-- <p style="font-weight: bold; font-size:20px;">প্রেক্ষা </p> -->
-
-        <!-- <div class="column">
-
-          <img src="images/shermin.jpg"alt="Slide1">
-
-        </div> -->
-           <!-- <img  src="images/Ahmed .jpg" alt="Example Image 1"> -->
-         <!-- </div>    -->
+        <div class="column">
+        <a href="images/কালান্তক বিশেষ সংখ্যা.pdf" target="_tt"> <img src="images/kalantokb.jpg" alt="Example Image 1"></a>
+        </div>
+         </div>   
         
-
-             
-
-              <img src="images/Ruchita .jpeg" alt="Example Image 2">
-              <img src="images/Riazul.jpeg" alt="Example Image 3">
-              <img src="images/Rimi.jpeg" alt="Example Image 4">
-              <!-- <img src="images/Rajib.jpeg" alt="Example Image 5"> -->
-
-              
-            <!-- </div>
-
-            </div>
-        </div> -->
-          
+         <a href="images/কালান্তক প্রযোজনা সংখ্যা.pdf" target="_tt"> <img src="images/kalantokp.jpg" alt="Example Image 2"></a>
+              <a href="images/কালান্তক ষষ্ঠ সংখ্যা.pdf" target="_tt"> <img src="images/kalantok6.jpg" alt="Example Image 3"></a>
+              <a href="images/কালান্তক ছন্দ সংখ্যা.pdf" target="_tt"> <img src="images/kalantokc.jpg" alt="Example Image 3"></a>
+              <a href="images/কালান্তক আবৃত্তি বিষয়ক সংখ্যা.pdf" target="_tt"> <img src="images/1stkalantok.jpg" alt="Example Image 3"></a>
      </div>
-
-      
-   
     </div>
 
     <script>
-        // document.getElementById("box").addEventListener("click", function() {
-        //   this.style.backgroundColor = "lightblue";
-        // });
-
-
 // .............................hero image slideshow...................................
 var slideIndex = 0;
 var slides = document.getElementsByClassName("hero-image");

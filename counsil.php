@@ -24,14 +24,18 @@ if(
         <img class="hero-image" src="images/head_ss_3.jpg">
       </div>
       <div>
-        <img src="images/Heading_Image_Text.png" width="600" height="120">
+ 
+
+        <a href="home.php">
+  <img src="images/Heading_Image_Text.png" width="600" height="120" alt="Clickable header image">
+</a>
       </div>
     </div>
 
     <div class="menuBox">
-        <!-- <div class="inner-box">
-            <a href="home.php"><h3>হোম</h3></a>
-        </div> -->
+   <!-- home icon -->
+        <a style="font-size: 2em; padding-right: 10px; padding-left: 10px; padding-bottom: 10px; color:black" href="home.php"><i class="fa fa-home"></i></a>
+
         <div class="inner-box">
 
           <div class="dropdown">
@@ -39,47 +43,43 @@ if(
             <div class="dropdown-content">
               <a href="#">সংগঠন পরিচিতি</a>
               <a href="#">গঠনতন্ত্র </a>
-              <a href="upodeshta2.php">উপদেষ্টা মন্ডলী </a>
+              <a href="upodeshta.php">উপদেষ্টা মন্ডলী </a>
               <a href="counsil.php">কাউন্সিল</a>
-              <a href="prakton.php">প্রাক্তন</a>
+              <a href="#">প্রাক্তন</a>
             </div>
           </div>
         </div>
 
-
-          <!-- <div class="inner-box" style="color:rgb(146, 28, 146);"><b><h3>পরিচিতি</h></b></div> -->
-          <!-- <div class="inner-box" style="color:rgb(37, 37, 102); line-height: 0.85; font-size: 16px;"><h3>নিয়মিত আয়োজন</h3></div> -->
         <div class="inner-box">
           <div class="dropdown">
-            <button class="dropbtn"><h3>নিয়মিত আয়োজন</h3></button>
+          <button class="dropbtn" style="color:rgb(37, 37, 102);"><h3>নিয়মিত আয়োজন</h3</button>
             <div class="dropdown-content">
-              <a href="#">কর্মশালা</a>
+              <a href="kormoshala.php">কর্মশালা</a>
               <a href="#">কবি ও কবিতা  </a>
               <a href="#">পড়ুয়া </a>
-              <a href="#">বৈঠক </a>
+              <a href="boithok.php">বৈঠক </a>
               <a href="#">প্রতিযোগিতা </a>
               <a href="#">অন্যান্য</a>
             </div>
           </div>
         </div>
-          <!-- <div class="inner-box" style="color:rgb(61, 61, 216);"><h3>প্রকাশনা</h3></div> -->
         <div class="inner-box">
           <div class="dropdown">
-            <button class="dropbtn"><h3>প্রকাশনা</h3></button>
+          <button class="dropbtn" style="color:rgb(61, 61, 216);"><h3>প্রকাশনা</h3</button>
             <div class="dropdown-content">
-              <a href="#">কালান্তক </a>
+              <a href="kalantok.php">কালান্তক </a>
               <a href="#">আবর্তন  </a>
-              <a href="prekkha.html">প্রেক্ষা </a>
+              <a href="prekkha.php">প্রেক্ষা </a>
             </div>
           </div>
         </div>
-          <!-- <div class="inner-box" style="color:rgb(212, 69, 17);line-height: 0.9; font-size: 16px;"><h3>আবৃত্তি উৎসব</h3></div> -->
         <div class="inner-box">
           <div class="dropdown">
-            <button class="dropbtn"><h3>আবৃত্তি উৎসব</h3></button>
+          <button class="dropbtn" style="color:rgb(212, 69, 17);"><h3>আবৃত্তি উৎসব</h3</button>
             <div class="dropdown-content">
-              <a href="#">৯ম আবৃত্তি উৎসব</a>
-              <a href="#">৮ম আবৃত্তি উৎসব</a>
+              <a href="10thA.php">১oম আবৃত্তি উৎসব</a>
+              <a href="9thA.php">৯ম আবৃত্তি উৎসব</a>
+              <a href="8thA.php">৮ম আবৃত্তি উৎসব</a>
               <a href="#">৭ম আবৃত্তি  উৎসব</a>
               <a href="#">৬ষ্ঠ আবৃত্তি উৎসব</a>
               <a href="#">৫ম আবৃত্তি উৎসব</a>
@@ -91,7 +91,6 @@ if(
           </div>
         </div>
         <div class="inner-box" style="color:rgb(10, 68, 10);"><h3>সম্মাননা</h3></div>
-          <!-- <div class="inner-box" style="color:rgb(185, 35, 128);"><h3>গ্যালারি</h3></div> -->
         <div class="inner-box">
           <div class="dropdown">
             <button class="dropbtn"><h3>গ্যালারি</h3</button>
@@ -115,7 +114,7 @@ if(
 
 
 
-    <div class="box22"><h3>কাউন্সিল</h3></div>
+    <div class="box22"><h3><u>কাউন্সিল</u></h3></div>
     <div class="container">
           <div class="inner-box1">
             <p><b>কার্যকরী পরিষদ ২০০৪-২০০৫ খ্রি.</b></p>
@@ -227,6 +226,26 @@ if(
             <p>কার্যকরী সদস্য: প্রিয়ন্তি সাহা, ফজলে এলাহি শশী, এনামুল, প্রমিতি </p> 
             <p> সাধারণ সদস্য রিয়াজ, শারমিন, তারেক, প্রিতু</p>       
             </div>
+
+            <div class="inner-box1">
+            <p><b>কার্যকরী পরিষদ ২০১৬-২০১৭ খ্রি.</b></p>
+            <p>তারিখঃ ২৪.১২.২০১৭ খ্রি. </p>
+            <p>স্থানঃ সিআরবি</p>
+            <p>সভাপতি: রিয়াজুল কবির</p>
+            <p>সিনিয়র সহ-সভপতি : প্রিয়ন্তী সাহা</p>
+            <p>সহ-সভাপতি : ফজলে এলাহী শশী, গোলাম মুহতামীম নাঈম </p>
+            <p>সাধারণ সম্পাদক : জেবুন নাহার শারমিন</p>
+            <p>সহ-সাধারণ সম্পাদক রফিক আহমেদ সোবহানী</p>
+            <p>সাংগঠনিক সম্পাদক : সেঁজুতি বড়ুয়া</p>
+            <p>সহ-সাংগঠনিক সম্পাদক : নূর আক্তার শিউলী</p>
+            <p>অর্থ সম্পাদক :  সৈয়দা নাঈমা ইয়াছমিন</p>
+            <p>প্রচার ও প্রকাশনা সম্পাদক :  মাসুম বিল্লাহ আরিফ</p>
+            <p>সহ-প্রচার ও প্রকাশনা সম্পাদক :  গোলাম রাব্বানী ইমার</p>
+            <p>দপ্তর সম্পাদক :  আল ইমরান</p>
+            <p>সহ-দপ্তর সম্পাদক :  শাকিল আহমেদ</p> 
+            <p>পূর্ণাঙ্গ সদস্য: এনামুল হক চৌধুরী, রাবেয়া বানু নীলিমা, শারমিন জাহান শিবা বড়ুয়া চৌধুরী, আমির ফারাবি সোহেল, ওয়াসিমা ইরফাত, আইনানে তাজরিয়ান, ফারজানা ইসলাম, ফৌজিয়া মেহনাজ, তানিজ ফাহিমা, পার্লি চাকমা, আতিকুর রহমান, ইমার আহমেদ, শান্তা ভদ্র, প্রতিভা বড়ুয়া, বোরহান উদ্দিন রব্বানী</p>       
+            </div>
+
             <div class="inner-box1">
             <p><b>কার্যকরী পরিষদ ২০১৯-২০২০ খ্রি.</b></p>
             <p>তারিখ:  ০৩.০৫.২০১৯. খ্রি. </p>
@@ -265,6 +284,27 @@ if(
             <p>নির্বাহী সদস্য: 
 এমদাদ, ফরহাদ, হাকীম,আমরি, মাসুদ, মরিাজ, আসমা, তাহমদিা, জুনায়দে, ফাহিমা।  </p> 
            
+            </div>
+
+            <div class="inner-box1">
+            <p><b>কার্যকরী পরিষদ ২০২৩-২০২৪ খ্রি.</b></p>
+            <p>তারিখ:  </p>
+            <p>সভাপতি: </p>
+            <p>সিনিয়র সহ-সভাপতি: </p>
+            <p>সহ-সভাপতি: </p>
+            <p>সহ-সভাপতি:   </p>
+            <p>সাধারণ সম্পাদক: </p>
+            <p>সহ-সাধারণ সম্পাদক: </p>
+            <p>সাংগঠনিক সম্পাদক: 	</p>
+            <p>সহ-সাংগঠনিক সম্পাদক: </p>
+            <p>অর্থ সম্পাদক: </p>
+            <p>অনুষ্ঠান সম্পাদক: </p>
+            <p>প্রচার ও প্রকাশনা সম্পাদক: </p>
+            <p>সহ-প্রচার ও প্রকাশনা সম্পাদক:  </p> 
+            <p>দপ্তর সম্পাদক:  </p> 
+            <p>সহ-দপ্তর সম্পাদক:  </p> 
+            <p>নির্বাহী সদস্য:   </p> 
+       
             </div>
 
 
